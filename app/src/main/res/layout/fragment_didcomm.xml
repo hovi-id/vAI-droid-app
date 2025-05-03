@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/scanQrButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/scan_qr_code"
+            android:drawableStart="@drawable/ic_qr_code"
+            android:drawablePadding="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/switchViewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_view"
+            android:drawableStart="@drawable/ic_grid"
+            android:drawablePadding="8dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/connectionsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connections"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"/>
+
+    <include
+        android:id="@+id/didcommFragment"
+        layout="@layout/fragment_letters_layout"/>
+
+    <TextView
+        android:id="@+id/credentialsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/credentials"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/credentialsPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_credentials_found"
+        android:gravity="center"
+        android:padding="16dp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/credentialsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+</LinearLayout>

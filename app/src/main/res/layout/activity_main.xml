@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.goodwy.commons.views.MySearchMenu
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:id="@+id/mainTopTabsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/viewPager">
+
+            <LinearLayout
+                android:id="@+id/mainTopTabsBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/mainTopTabsHolder"
+                android:layout_alignBottom="@+id/mainTopTabsHolder"
+                android:layout_alignStart="@+id/mainTopTabsHolder"
+                android:layout_alignEnd="@+id/mainTopTabsHolder"
+                android:layout_marginTop="-3dp"
+                android:layout_marginBottom="-3dp"
+                android:layout_marginStart="-3dp"
+                android:layout_marginEnd="-3dp"
+                android:background="@drawable/tab_background"
+                android:elevation="12dp"
+                tools:ignore="Orientation"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/mainTopTabsHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp"
+                android:background="@null"
+                android:elevation="16dp"
+                app:tabIndicator="@drawable/tab_indicator"
+                app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorColor="@android:color/white"
+                app:tabIndicatorFullWidth="true"
+                app:tabIndicatorGravity="stretch"
+                app:tabIndicatorHeight="48dp"
+                app:tabMaxWidth="@dimen/tab_layout_width"
+                app:tabMinWidth="@dimen/tab_layout_width"
+                app:tabMode="scrollable"
+                app:tabRippleColor="@null"
+                app:tabSelectedTextColor="@android:color/white"/>
+        </RelativeLayout>
+
+
+        <com.goodwy.commons.views.MyViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/mainTabsHolder"
+            app:layout_constraintTop_toBottomOf="@+id/mainTopTabsContainer">
+        </com.goodwy.commons.views.MyViewPager>
+
+        <com.goodwy.commons.views.MyFloatingActionButton
+            android:id="@+id/main_dialpad_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/bigger_margin"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:contentDescription="@string/dialpad"
+            android:elevation="@dimen/medium_margin"
+            android:padding="@dimen/activity_margin"
+            android:src="@drawable/ic_dialpad_vector"
+            app:backgroundTint="@color/color_primary"
+            app:layout_constraintBottom_toTopOf="@+id/mainTabsHolder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rippleColor="@color/pressed_item_foreground"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/mainTabsHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tabIndicator="@null"
+            app:tabMinWidth="150dp"
+            app:tabRippleColor="@null"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

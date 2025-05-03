@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transparent_call_screen_g">Şəffaf Zəng Ekranı</string>
+    <string name="call_back_g">Geri zəng et</string>
+    <string name="call_back_person_g">%s nömrəsinə geri zəng edin</string>
+    <string name="missed_call_g">Buraxılmış zəng</string>
+    <string name="missed_calls_g">Buraxılmış zənglər</string>
+    <string name="missed_call_notifications_g">Buraxılmış zəng bildirişləri</string>
+    <string name="call_notification_channel_high_priority_g">Zəng bildirişləri yüksək prioritet</string>
+    <string name="call_notification_channel_g">Zəng bildirişləri</string>
+    <string name="dialpad_preferences">Yığım paneli üstünlükləri</string>
+    <string name="call_start_end_vibration">Zənginiz başlayanda və bitəndə titrəyin</string>
+
+    <string name="show_contact_thumbnails_g">Kontakt miniatürlərini göstərin</string>
+    <string name="hide_dialpad_letters_g">Nömrə hərflərini gizlədin</string>
+    <string name="show_caller_description_g">Əlavə zəng edən məlumatı göstərin</string>
+    <string name="nickname">Ləqəb</string>
+    <string name="company">Şirkət</string>
+    <string name="call_anonymously">Anonim zəng edin (#31# prefiksi ilə)</string>
+    <string name="call_anonymously_warning">
+        <![CDATA[
+            <h4>Xəbərdarlıq</h4>
+             Nömrə #31# prefiksi ilə çağırılacaq <br><br>
+                 <h6"><i> #31#%s</i></h6>
+             #31# prefiksindən istifadə edərkən operatorunuzun nömrə gizlətmə xidmətini dəstəklədiyinə əmin olun. <br>
+             Xidmət provayderiniz bu xidmət üçün əlavə haqq tələb edə bilər.
+        ]]>
+    </string>
+
+    <string name="audio_route_earpiece_g">Cihazın qulaqcığı</string>
+    <string name="open_speed_dial_manage">Sürətli yığım idarəsi açılsın?</string>
+
+    <!-- Timer -->
+    <string name="timer">Taymer</string>
+    <string name="timers_notification_msg">Taymerlər işləyir</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d taymer işləyir</item>
+        <item quantity="other">%d taymer işləyir</item>
+    </plurals>
+
+    <!-- FAQ -->
+    <string name="faq_1_title_dialer_g">Daxil olan zəngə cavab vermək üçün niyə cihazın kilidini açmalıyam?</string>
+    <string name="faq_1_text_dialer_g">Əməliyyat sistemi proqramların kilid ekranına daxil olmasını əngəlləyir. Siz tətbiqin kilid ekranına daxil olmasına icazə verməlisiniz. Məsələn, MIUI-də siz Parametrlər => Bildirişlər => Kilid ekranında bildirişlərə girişə icazə verməlisiniz.</string>
+    <string name="faq_2_title_dialer_g">Nömrəni yığan ekranda necə kopyalaya və ya yapışdıra bilərəm?</string>
+    <string name="faq_2_text_dialer_g">Buferin məzmununu yapışdırmaq üçün zəng düyməsini uzun müddət basın. Əgər nömrə artıq daxil edilibsə, zəng düyməsini uzun basmaq onu mübadilə buferinə kopyalayır.</string>
+
+    <!-- Answer style -->
+    <string name="answer_style">Cavab Düyməsi Üslubu</string>
+    <string name="buttons">Düymələr</string>
+    <string name="answer_slider">Slayder</string>
+    <string name="answer_slider_outline">Kontur kaydırıcısı</string>
+    <string name="answer_slider_vertical">Şaquli Sürgü</string>
+
+    <string name="show_recent_calls">Son zəngləri göstərin</string>
+    <string name="open_dialpad_when_call_from_another_app">Başqa proqramdan zəng etməyə çalışdığınız zaman yığım panelini açın</string>
+    <string name="open_dialpad_when_call_from_another_app_summary">Bu, sizi məlumatınız olmadan zənglər edən zərərli proqramlardan qoruya bilər.</string>
+    <string name="number_of_recent_calls_displays">Son zənglərin sayı göstərilir</string>
+    <string name="group_calls">Zəng qruplaşdırılması</string>
+    <string name="group_all_calls">Bütün zəngləri qruplaşdırın, yalnız son zəng göstəriləcək</string>
+    <string name="call_button_style">Zəng düyməsi tərzi</string>
+    <string name="call_notes">Zəng qeydləri</string>
+    <string name="back_pressed_end_call">Geri hərəkət zəngi bitirir</string>
+    <string name="call_using_same_sim">Əvvəlki (son) zənginin edildiyi eyni SİM kartdan istifadə edin</string>
+    <string name="answer_end_other_call">Cari zəngə cavab verin və bitirin</string>
+    <string name="quick_answers">Sürətli cavablar</string>
+    <string name="voicemail">Səsli poçt</string>
+    <string name="show_voicemail_icon">Səs poçtu ikonasını göstərin</string>
+    <string name="secondary_dialpad_language">İkinci dərəcəli dialpad dili</string>
+    <string name="sim_card_selection_dialog_style">SİM kart seçimi dialoq üslubu</string>
+    <string name="clear_dialpad_when_start_call">Zəngə başlayarkən yığılmış nömrəni silin</string>
+
+    <!-- Notifications -->
+    <plurals name="missed_calls">
+        <item quantity="one">%d buraxılmış zəng</item>
+        <item quantity="other">%d buraxılmış zəng</item>
+    </plurals>
+    <string name="missed_call_from">Missed call from %s</string>
+    <string name="message">Mesaj</string>
+</resources>

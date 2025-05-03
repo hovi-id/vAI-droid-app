@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transparent_call_screen_g">Tela de Chamada Transparente</string>
+    <string name="call_back_g">Retornar Chamada</string>
+    <string name="call_back_person_g">Retornar Chamada de %s</string>
+    <string name="missed_call_g">Chamada perdida</string>
+    <string name="missed_calls_g">Chamadas perdidas</string>
+    <string name="missed_call_notifications_g">Notificações de chamadas perdidas</string>
+    <string name="call_notification_channel_high_priority_g">Notificações de chamada de alta prioridade</string>
+    <string name="call_notification_channel_g">Notificações de chamadas</string>
+    <string name="dialpad_preferences">Preferências do teclado de discagem</string>
+    <string name="call_start_end_vibration">Vibrar quando a chamada inicia ou é encerrada</string>
+
+    <string name="show_contact_thumbnails_g">Exibir miniaturas de contato</string>
+    <string name="hide_dialpad_letters_g">Ocultar letras do teclado de discagem</string>
+    <string name="show_caller_description_g">Exibir informações adicionais sobre o chamador</string>
+    <string name="nickname">Apelido</string>
+    <string name="company">Empresa</string>
+    <string name="call_anonymously">Chamar anonimamente (com o prefixo #31#)</string>
+    <string name="call_anonymously_warning">
+        <![CDATA[
+            <h4>Aviso</h4>
+            O número será chamado com o prefixo #31# <br><br>
+                <h6"><i>  #31#%s</i></h6>
+            Certifique-se de que sua operadora suporta o serviço de ocultação de números ao usar o prefixo #31#. <br>
+            Seu provedor de serviços pode cobrar uma taxa adicional por este serviço.
+        ]]>
+    </string>
+
+    <string name="audio_route_earpiece_g">O fone de ouvido do dispositivo</string>
+    <string name="open_speed_dial_manage">Abrir o gerenciamento da discagem rápida?</string>
+
+    <!-- Timer -->
+    <string name="timer">Temporizador</string>
+    <string name="timers_notification_msg">Temporizadores em execução</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d temporizador em execução</item>
+        <item quantity="other">%d temporizadores em execução</item>
+    </plurals>
+
+    <!-- FAQ -->
+    <string name="faq_1_title_dialer_g">Por que preciso desbloquear meu dispositivo para atender a uma chamada recebida?</string>
+    <string name="faq_1_text_dialer_g">Seu sistema operacional está bloqueando o acesso do aplicativo à tela de bloqueio. Você precisa permitir que o aplicativo acesse a tela de bloqueio. Por exemplo, na MIUI, é preciso permitir o acesso em "Configurações => Notificações => Notificações na tela de bloqueio" e ativar a permissão "Abrir novas janelas enquanto executa em segundo plano".</string>
+    <string name="faq_2_title_dialer_g">Como copiar ou colar um número na tela de discagem?</string>
+    <string name="faq_2_text_dialer_g">Um toque longo no botão de chamada cola o conteúdo da área de transferência. Se o número já tiver sido inserido, um toque longo no botão de chamada o copiará para a área de transferência.</string>
+
+    <!-- Answer style -->
+    <string name="answer_style">Estilo da resposta</string>
+    <string name="buttons">Botões</string>
+    <string name="answer_slider">Botão deslizante</string>
+    <string name="answer_slider_outline">Controle deslizante com contorno</string>
+    <string name="answer_slider_vertical">Controle deslizante vertical</string>
+
+    <string name="show_recent_calls">Mostrar chamadas recentes</string>
+    <string name="open_dialpad_when_call_from_another_app">Ao tentar fazer uma chamada de outro aplicativo, abra o painel de discagem</string>
+    <string name="open_dialpad_when_call_from_another_app_summary">Isso pode protegê-lo contra malware que faz chamadas sem o seu conhecimento.</string>
+    <string name="number_of_recent_calls_displays">Número exibido de chamadas recentes</string>
+    <string name="group_calls">Agrupamento de chamadas</string>
+    <string name="group_all_calls">Agrupar todas as chamadas, apenas a última chamada será mostrada</string>
+    <string name="call_button_style">Estilo de botão de anel</string>
+    <string name="call_notes">Notas de chamada</string>
+    <string name="back_pressed_end_call">A ação Voltar encerra a chamada</string>
+    <string name="call_using_same_sim">Use o mesmo cartão SIM para o qual a chamada anterior (última) foi feita</string>
+    <string name="answer_end_other_call">Atender e encerrar a chamada atual</string>
+    <string name="quick_answers">Respostas rápidas</string>
+    <string name="voicemail">Correio de voz</string>
+    <string name="show_voicemail_icon">Mostrar ícone do correio de voz</string>
+    <string name="secondary_dialpad_language">Idioma do teclado de discagem secundário</string>
+    <string name="sim_card_selection_dialog_style">Estilo de diálogo de seleção do cartão SIM</string>
+    <string name="clear_dialpad_when_start_call">Limpar o número discado no início de uma chamada</string>
+
+    <!-- Notifications -->
+    <plurals name="missed_calls">
+        <item quantity="one">%d chamada perdida</item>
+        <item quantity="many">%d chamadas perdidas</item>
+        <item quantity="other">%d chamadas perdidas</item>
+    </plurals>
+    <string name="missed_call_from">Missed call from %s</string>
+    <string name="message">Mensagem</string>
+</resources>

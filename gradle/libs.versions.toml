@@ -1,0 +1,81 @@
+[versions]
+#jetbrains
+kotlin = "1.9.25"
+kotlinxCoroutinesAndroid = "1.7.3"
+kotlinxSerializationJson = "1.6.0"
+#KSP
+ksp = "1.9.25-1.0.20"
+#Detekt
+detekt = "1.23.3"
+#Eventbus
+eventbus = "3.3.1"
+#Gradle
+gradlePlugins-agp = "8.7.1"
+#Other
+indicatorFastScroll = "e37b5b2ad6"
+autofitTextView = "0.2.1"
+#Goodwy
+moshiKotlin = "1.15.0"
+okhttp = "4.12.0"
+retrofit = "2.9.0"
+right-commons = "a7f55451bc"
+badger = "1.1.22"
+libphonenumber = "8.13.26"
+geocoder = "2.185"
+androidx-lifecycle = "2.8.6"
+behavioRule = "1.0.1"
+rxAnimation = "2.1.1"
+rxJava3 = "3.1.5"
+room = "2.6.1"
+swipeToActionLayout = "bd1eb3c8a3"
+scanner = "4.3.0"
+#build
+app-build-compileSDKVersion = "34"
+app-build-targetSDK = "34"
+app-build-minimumSDK = "23"
+app-build-javaVersion = "VERSION_17"
+app-build-kotlinJVMTarget = "17"
+#versioning
+app-version-appId = "com.goodwy.dialer"
+app-version-versionCode = "612"
+app-version-versionName = "6.1.2"
+[libraries]
+#EventBus
+converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+#Kotlin
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+#Other
+indicator-fast-scroll = { module = "com.github.goodwy:IndicatorFastScroll", version.ref = "indicatorFastScroll" }
+autofit-text-view = { module = "me.grantland:autofittextview", version.ref = "autofitTextView" }
+#Goodwy
+goodwy-commons = { module = "com.github.Goodwy:Goodwy-Commons", version.ref = "right-commons" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlin" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+shortcut-badger = { module = "me.leolin:ShortcutBadger", version.ref = "badger" }
+googlecode-libphonenumber = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "libphonenumber" }
+googlecode-geocoder = { module = "com.googlecode.libphonenumber:geocoder", version.ref = "geocoder" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "androidx-lifecycle" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+behavio-rule = { module = "com.github.Liverm0r:BehavioRule", version.ref = "behavioRule" }
+rx-animation = { module = "com.mikhaellopez:rxanimation", version.ref = "rxAnimation" }
+rx-java = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxJava3" }
+swipe-action = { module = "com.github.Goodwy:SwipeActionView", version.ref = "swipeToActionLayout" }
+scanner = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "scanner" }
+[bundles]
+lifecycle = [
+    "androidx-lifecycle-runtime",
+    "androidx-lifecycle-viewModel",
+    "androidx-lifecycle-process",
+]
+[plugins]
+android = { id = "com.android.application", version.ref = "gradlePlugins-agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

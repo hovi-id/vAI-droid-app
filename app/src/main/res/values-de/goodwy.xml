@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transparent_call_screen_g">Transparenter Anrufbildschirm</string>
+    <string name="call_back_g">Rufen</string>
+    <string name="call_back_person_g">Rückruf %s</string>
+    <string name="missed_call_g">Verpasster Anruf</string>
+    <string name="missed_calls_g">Verpasste Anrufe</string>
+    <string name="missed_call_notifications_g">Benachrichtigungen über verpasste Anrufe</string>
+    <string name="call_notification_channel_high_priority_g">Rufbenachrichtigungen hohe Priorität</string>
+    <string name="call_notification_channel_g">Rufbenachrichtigungen</string>
+    <string name="dialpad_preferences">Dialpad-Einstellungen</string>
+    <string name="call_start_end_vibration">Vibrieren, wenn Ihr Anruf beginnt und endet</string>
+
+    <string name="show_contact_thumbnails_g">Kontakt-Miniaturansichten anzeigen</string>
+    <string name="hide_dialpad_letters_g">Wählscheibenbuchstaben ausblenden</string>
+    <string name="show_caller_description_g">Zusätzliche Anruferinformationen anzeigen</string>
+    <string name="nickname">Spitzname</string>
+    <string name="company">Firma</string>
+    <string name="call_anonymously">Anonym anrufen (mit Vorwahl #31#)</string>
+    <string name="call_anonymously_warning">
+        <![CDATA[
+            <h4>Warnung</h4>
+            Die Nummer wird mit der Vorwahl #31# angerufen <br><br>
+                <h6"><i>  #31#%s</i></h6>
+            Vergewissern Sie sich, dass Ihr Netzbetreiber den Rufnummernüberwachungsdienst unterstützt, wenn Sie die Vorwahl #31# verwenden. <br>
+            Ihr Dienstanbieter kann eine zusätzliche Gebühr für diesen Dienst verlangen..
+        ]]>
+    </string>
+
+    <string name="audio_route_earpiece_g">Kopfhörer des Geräts</string>
+    <string name="open_speed_dial_manage">Öffnen Sie die Kurzwahlverwaltung?</string>
+
+    <!-- Timer -->
+    <string name="timer">Timer</string>
+    <string name="timers_notification_msg">Die Timer laufen</string>
+    <plurals name="timer_notification_msg">
+        <item quantity="one">%d Timer wird ausgeführt</item>
+        <item quantity="other">%d Timer werden ausgeführt</item>
+    </plurals>
+
+    <!-- FAQ -->
+    <string name="faq_1_title_dialer_g">Warum muss ich mein Gerät entsperren, um einen eingehenden Anruf zu beantworten? </string>.
+    <string name="faq_1_text_dialer_g">Das Betriebssystem blockiert den Zugriff von Anwendungen auf den Sperrbildschirm. Sie müssen der Anwendung den Zugriff auf den Sperrbildschirm erlauben. Zum Beispiel müssen Sie in MIUI den Zugriff auf Einstellungen => Benachrichtigungen => Benachrichtigungen auf dem Sperrbildschirm erlauben.</string>
+    <string name="faq_2_title_dialer_g">Wie kann man eine Nummer auf dem Wählbildschirm kopieren oder einfügen? </string>
+    <string name="faq_2_text_dialer_g">Ein langer Druck auf die Ruftaste fügt den Inhalt der Zwischenablage ein. Wenn die Nummer bereits eingegeben ist, wird sie durch einen langen Druck auf die Anruftaste in die Zwischenablage kopiert.</string>
+
+    <!-- Answer style -->
+    <string name="answer_style">Antworttaste Stil</string>
+    <string name="buttons">Buttons</string>
+    <string name="answer_slider">Schieberegler</string>
+    <string name="answer_slider_outline">Schieberegler mit Umrandung</string>
+    <string name="answer_slider_vertical">Vertikaler Schieberegler</string>
+
+    <string name="show_recent_calls">Letzte Anrufe anzeigen</string>
+    <string name="open_dialpad_when_call_from_another_app">Wenn Sie versuchen, einen Anruf über eine andere App zu tätigen, öffnen Sie die Wähltastatur</string>
+    <string name="open_dialpad_when_call_from_another_app_summary">Dies kann Sie vor Malware schützen, die ohne Ihr Wissen Anrufe tätigt.</string>
+    <string name="number_of_recent_calls_displays">Angezeigte Anzahl der letzten Anrufe</string>
+    <string name="group_calls">Gruppierung von Anrufen</string>
+    <string name="group_all_calls">Gruppieren Sie alle Anrufe, es wird nur der letzte Anruf angezeigt</string>
+    <string name="call_button_style">Klingelknopf-Stil</string>
+    <string name="call_notes">Notizen für Anrufe</string>
+    <string name="back_pressed_end_call">Die Zurück-Aktion beendet den Anruf</string>
+    <string name="call_using_same_sim">Verwenden Sie dieselbe SIM-Karte, auf die der vorherige (letzte) Anruf getätigt wurde</string>
+    <string name="answer_end_other_call">Annehmen und Beenden des aktuellen Anrufs</string>
+    <string name="quick_answers">Schnelle Antworten</string>
+    <string name="voicemail">Voicemail</string>
+    <string name="show_voicemail_icon">Voicemail-Symbol anzeigen</string>
+    <string name="secondary_dialpad_language">Sprache der sekundären Wähltastatur</string>
+    <string name="sim_card_selection_dialog_style">SIM-Auswahl-Dialogstil</string>
+    <string name="clear_dialpad_when_start_call">Gewählte Nummer beim Starten eines Anrufs löschen</string>
+
+    <!-- Notifications -->
+    <plurals name="missed_calls">
+        <item quantity="one">%d verpasster Anruf</item>
+        <item quantity="other">%d verpasste Anrufe</item>
+    </plurals>
+    <string name="missed_call_from">Missed call from %s</string>
+    <string name="message">Nachricht</string>
+</resources>
