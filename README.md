@@ -6,6 +6,10 @@ It serves as a demonstration for a Verifiable AI Call Agent. In this demo, when 
 
 This repository contains the frontend implementation for the [cheqd verfiable AI hackathon](https://dorahacks.io/hackathon/cheqd-verifiable-ai/) project.
 
+## Try it
+Experience Verfiable AI in action:  
+👉 [Launch App](https://vai-hackathon-app.hovi.id)
+
 ## Screenshots
 <div style="display: flex; justify-content: space-around;">
     <img src="screenshots/Screenshot_1.jpg" alt="Screenshot 1" style="width: 45%;"/>
