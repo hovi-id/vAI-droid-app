@@ -7,7 +7,7 @@ It serves as a demonstration for a Verifiable AI Call Agent. In this demo, when 
 This repository contains the frontend implementation for the [cheqd verfiable AI hackathon](https://dorahacks.io/hackathon/cheqd-verifiable-ai/) project.
 
 ## Try it
-Experience Verfiable AI in action:  
+Experience Verifiable AI in action:  
 👉 [Launch App](https://vai-hackathon-app.hovi.id)
 
 ## Screenshots
