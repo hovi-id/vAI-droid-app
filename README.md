@@ -4,6 +4,8 @@ This project is a fork of [Goodwy/Dialer](https://github.com/Goodwy/Dialer) and 
 
 It serves as a demonstration for a Verifiable AI Call Agent. In this demo, when an AI sales agent calls you, the app verifies the agent's identity using verifiable credentials and DID-linked resources, ensuring trust and authenticity in the interaction.
 
+Additionally, the verified AI agent uses organziation wallet to interacts with users over the call and verifies their identity in real-time by interacting with their digital wallet. This runtime verification uses verifiable credentials, further enhancing the security and reliability of the interaction.
+
 This repository contains the frontend implementation for the [cheqd verfiable AI hackathon](https://dorahacks.io/hackathon/cheqd-verifiable-ai/) project.
 
 ## Try it
