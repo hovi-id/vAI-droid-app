@@ -14,8 +14,8 @@ Experience Verifiable AI in action:
 
 ## Screenshots
 <div style="display: flex; justify-content: space-around;">
-    <img src="screenshots/Screenshot_1.jpg" alt="Screenshot 1" style="width: 45%;"/>
-    <img src="screenshots/Screenshot_2.jpg" alt="Screenshot 2" style="width: 45%;"/>
+    <img src="screenshots/shot0.png" alt="Screenshot 1" style="width: 45%;"/>
+    <img src="screenshots/shot1.png" alt="Screenshot 2" style="width: 45%;"/>
 </div>
 
 ## Technologies used
